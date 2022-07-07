@@ -1,0 +1,34 @@
+from ArticutAPI import Articut
+import json
+from pprint import pprint
+
+username = " "
+#這裡填入您在 https://api.droidtown.co/ 使用的帳號 email。若使用空字串，則預設使用每小時 2000 字的公用額度。
+apikey   = " "
+#這裡填入您在 https://api.droidtown.co/ 登入後取得的 api Key。若使用空字串，則預設使用每小時 2000 字的公用額度。
+
+articut = Articut(username, apikey)
+
+def newsVerb(inputSTR):
+    resultDICT = articut.parse(inputSTR)
+    pprint(resultDICT)
+    verbLIST = articut.getVerbStemLIST(resultDICT)
+    return verbLIST
+
+##if __name__ == "__main__":
+    text = json.load(open("C:\\Users\\user\\Desktop\\Sports_news\\data\\4.json", encoding="utf-8"))
+    verbLIST = newsVerb(text["text"])
+    pprint(verbLIST)
+
+import os
+path_of_data = r"C:\Users\user\Desktop\Sports_news\data"
+ext = ".json"
+#dir = directory
+for files in os.scandir(path_of_data):
+    if files.path.endswith(ext):
+        text = json.load(open(files, encoding="utf-8"))
+        verbLIST = newsVerb(text["text"])
+        pprint(verbLIST)
+
+
+
