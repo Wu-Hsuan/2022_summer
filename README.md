@@ -48,7 +48,11 @@ While I learn in Droidtown
       - Appache：是否公開可以分開
       - Open CC(CC0)：0保障0責任0限制
  
-- Articut
- - ENTITY_OOV
- - ENTITY_nouny
- - ENTITY_nounhead
+## Articut
+ - ENTITY_OOV∕ENTITY_nouny∕ENTITY_nounhead
+ - NER∕POS
+ - TF-IDF(Term frequency - Inverse Document freq.)
+    -key word 最有區辨性∕代表性的字(not關鍵字)
+ - text → NER/POS → TF-IDF 
+   v.s. text → jieba/CKIP → TF-IDF(去stop word 停用詞)(英文的function word)
+ 
