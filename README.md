@@ -42,7 +42,9 @@ While I learn in Droidtown
    - 可能是用正確答案trainning(SIGHAN2005：gold standard)：400句錯誤都一樣
    - OOV(Out Of Vocabulary)(字典外的字)
       - e.g.被「陽」了 → 如果這句話存活很久，可能被X結構或陽當動詞流行
-   - Liciensing
+   - CWs：97.49% / POS： 94.59% / NER： 77.98% → NLP App相乘 = CWS*POS*NER = 72.21%
+     
+## Liciensing
       - GPL：需要一樣授權，且用了就需要公開(自由下載)，For 學術、銀行(病毒性、有感染力的授權)
       - MIT：不管是否公開，但是授權系統需要在同樣授權的系統中運作
       - Appache：是否公開可以分開
