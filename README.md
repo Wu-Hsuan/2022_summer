@@ -58,7 +58,7 @@ While I learn in Droidtown
  - text → NER/POS → TF-IDF 
    v.s. text → jieba/CKIP → TF-IDF(去stop word 停用詞)(英文的function word)
  
- ##給權重的方法(0714 by Peter)
+ ## 給權重的方法(0714 by Peter)
 1. 我隨便給的 (那你誰啊？)
 2. 我依資料分佈給的 (那資料哪來的？)
 3. 我依抽樣結果給的 (那你怎麼抽的？)
