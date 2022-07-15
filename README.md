@@ -78,8 +78,11 @@ While I learn in Droidtown
 ## NLU
 1. Eliza
 2. LUIS
+    - 一個一個字學習
 3. GoogleDialogFlow
 
-
+中央資工蔡宗翰教授：Hybrid → ML、DL (有錢惹！)
+(台語斷詞)
+專利：依照標點符號中文斷句
     
     
