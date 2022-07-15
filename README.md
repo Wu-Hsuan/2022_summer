@@ -58,7 +58,7 @@ While I learn in Droidtown
  - text → NER/POS → TF-IDF 
    v.s. text → jieba/CKIP → TF-IDF(去stop word 停用詞)(英文的function word)
  
- ## 給權重的方法(0714 by Peter)
+## 給權重的方法(0714 by Peter)
 1. 我隨便給的 (那你誰啊？)
 2. 我依資料分佈給的 (那資料哪來的？)
 3. 我依抽樣結果給的 (那你怎麼抽的？)
@@ -75,14 +75,21 @@ While I learn in Droidtown
     2. 詐騙or廣告&其他簡訊
         - term、word不足
         
+Context：語境
+
 ## NLU
 1. Eliza
 2. LUIS
     - 一個一個字學習
 3. GoogleDialogFlow
 
+二兆三星
 中央資工蔡宗翰教授：Hybrid → ML、DL (有錢惹！)
 (台語斷詞)
 專利：依照標點符號中文斷句
     
-    
+4. Wolfram Alpha：https://www.wolframalpha.com/
+5. Knowledge Graph 廣義知網：https://ckip.iis.sinica.edu.tw/project/ehownet
+    - 專家寫規則，分類什麼和什麼有關
+    - inconviente：要不斷有人維護
+    - Ontology(本體論)
