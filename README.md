@@ -39,10 +39,10 @@ While I learn in Droidtown
 - overfitting(過擬和)：錯誤及正確的都學習
 
 ## CKIP
-   - 可能是用正確答案trainning(SIGHAN2005：gold standard)：400句錯誤都一樣
-   - OOV(Out Of Vocabulary)(字典外的字)
+    - 可能是用正確答案trainning(SIGHAN2005：gold standard)：400句錯誤都一樣
+    - OOV(Out Of Vocabulary)(字典外的字)
       - e.g.被「陽」了 → 如果這句話存活很久，可能被X結構或陽當動詞流行
-   - CWs：97.49% / POS： 94.59% / NER： 77.98% → NLP App相乘 = CWS*POS*NER = 72.21%
+    - CWs：97.49% / POS： 94.59% / NER： 77.98% → NLP App相乘 = CWS*POS*NER = 72.21%
      
 ## Liciensing
       - GPL：需要一樣授權，且用了就需要公開(自由下載)，For 學術、銀行(病毒性、有感染力的授權)
@@ -57,4 +57,11 @@ While I learn in Droidtown
     -key word 最有區辨性∕代表性的字(not關鍵字)
  - text → NER/POS → TF-IDF 
    v.s. text → jieba/CKIP → TF-IDF(去stop word 停用詞)(英文的function word)
+ 
+ ##給權重的方法(0714 by Peter)
+1. 我隨便給的 (那你誰啊？)
+2. 我依資料分佈給的 (那資料哪來的？)
+3. 我依抽樣結果給的 (那你怎麼抽的？)
+4. 我擲筊得來…(擲 1 次是迷信、3 次是運氣、100 次是為了抽汽車、1 億次就叫大數據了)
+5. 我抄別人論文裡的參數 (哪一篇？它在幹嘛？請報告說明一下。) 
  
