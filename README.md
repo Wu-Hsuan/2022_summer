@@ -67,8 +67,19 @@ While I learn in Droidtown
  
  
 # 2022/07/15
-##檢討作業：
+##  檢討作業：
     1. 廣告or社交e-mail:
         - 建ADs、社交和其他的名詞和動詞建立corpus
         - 將社交郵件跟ADs郵件重疊的動詞跟名詞去掉
         - 將與其有來往的帳號設定為社交郵件
+    2. 詐騙or廣告&其他簡訊
+        - term、word不足
+        
+## NLU
+1. Eliza
+2. LUIS
+3. GoogleDialogFlow
+
+
+    
+    
