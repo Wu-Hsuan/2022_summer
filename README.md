@@ -93,3 +93,5 @@ Context：語境
     - 專家寫規則，分類什麼和什麼有關
     - inconviente：要不斷有人維護
     - Ontology(本體論)
+
+ref檔：分享用檔案
