@@ -99,7 +99,7 @@ ref檔：分享用檔案
 
 # 2022/07/22
 
-##Loki v.s. Machine Learning
+## Loki v.s. Machine Learning
 ### 聊天機器人
     1. clickbot
     2. 關鍵字
@@ -118,7 +118,7 @@ ref檔：分享用檔案
     3. 以LOKI為例，可以分別選擇要勾選的替換詞類
     4. 應用：電商平台的推薦系統
     
-## NLU with sympy math
+## NLU with sympy math (Pycon 2022)
     1. semantics = entity + relationship
     2. 把所有問題都當成alignment problem
     
@@ -126,6 +126,16 @@ ref檔：分享用檔案
     1. 人力銀行不能標註派駐大陸，如何篩選出派駐大陸的職缺
         - DICT
         - google map
-    2.
+    2. 書店店員 chatbot
+        - function：bargain、price、membership、bookshelf、availiability、report problem
+        - 可配合情緒分析(keymoji)
+        - chatbot有機會與不同情境結合 e.g. 民宿
+        - 不同的 chatbot 最好只做一件事，不然很有機會犯錯
+         → intent可以儲存
+    3. 知識運算
+        - 爸爸帶回來一隻小狗，我們給這隻小狗吃洋芋片。
+            -小狗可以吃洋芋片
+ 
+
     
 RE是什麼？
