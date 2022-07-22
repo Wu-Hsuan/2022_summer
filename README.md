@@ -112,7 +112,7 @@ ref檔：分享用檔案
     4. 句型結構比對式
         - 句型是有上限的 e.g.便利商店
     
-##不同意圖的同樣句型是否會造成混淆？
+## 不同意圖的同樣句型是否會造成混淆？
     1. 分類不同意圖的project
     2. 有些不同的utterance可以互通
     3. 以LOKI為例，可以分別選擇要勾選的替換詞類
@@ -122,5 +122,10 @@ ref檔：分享用檔案
     1. semantics = entity + relationship
     2. 把所有問題都當成alignment problem
     
+## Example
+    1. 人力銀行不能標註派駐大陸，如何篩選出派駐大陸的職缺
+        - DICT
+        - google map
+    2.
     
 RE是什麼？
