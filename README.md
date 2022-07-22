@@ -95,3 +95,32 @@ Context：語境
     - Ontology(本體論)
 
 ref檔：分享用檔案
+
+
+# 2022/07/22
+
+##Loki v.s. Machine Learning
+### 聊天機器人
+    1. clickbot
+    2. 關鍵字
+    3. 純機器學習
+        - 天氣預報
+        - 容易預測錯誤 e.g. 問路結果幫你叫車
+        - IBM的Watson → 資料量不夠大，有六分之五的資料是抹你出來的假資料
+            醫療聊天機器人無法解釋成因，且建議處方舊
+        - 國泰的「阿發」(關鍵字？) v.s. 小玉(ML+LOKI)
+    4. 句型結構比對式
+        - 句型是有上限的 e.g.便利商店
+    
+##不同意圖的同樣句型是否會造成混淆？
+    1. 分類不同意圖的project
+    2. 有些不同的utterance可以互通
+    3. 以LOKI為例，可以分別選擇要勾選的替換詞類
+    4. 應用：電商平台的推薦系統
+    
+## NLU with sympy math
+    1. semantics = entity + relationship
+    2. 把所有問題都當成alignment problem
+    
+    
+RE是什麼？
