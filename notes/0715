@@ -1,0 +1,29 @@
+# 2022/07/15
+##  檢討作業：
+    1. 廣告or社交e-mail:
+        - 建ADs、社交和其他的名詞和動詞建立corpus
+        - 將社交郵件跟ADs郵件重疊的動詞跟名詞去掉
+        - 將與其有來往的帳號設定為社交郵件
+    2. 詐騙or廣告&其他簡訊
+        - term、word不足
+        
+Context：語境
+
+## NLU
+1. Eliza
+2. LUIS
+    - 一個一個字學習
+3. GoogleDialogFlow
+
+二兆三星
+中央資工蔡宗翰教授：Hybrid → ML、DL (有錢惹！)
+(台語斷詞)
+專利：依照標點符號中文斷句
+    
+4. Wolfram Alpha：https://www.wolframalpha.com/
+5. Knowledge Graph 廣義知網：https://ckip.iis.sinica.edu.tw/project/ehownet
+    - 專家寫規則，分類什麼和什麼有關
+    - inconviente：要不斷有人維護
+    - Ontology(本體論)
+
+ref檔：分享用檔案
