@@ -14,7 +14,7 @@ Bot 可以回覆的問題
 
 DEMO
 -------------
-{%youtube [youtubeid](https://www.youtube.com/watch?v=-nN0iRo6ejM) %}
+{%youtube [Demo](https://www.youtube.com/watch?v=-nN0iRo6ejM) %}
 
 檔案總覽/目錄
 -------------
